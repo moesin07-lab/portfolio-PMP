@@ -3,253 +3,579 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moe Myint Kyal Sin — PMP Portfolio</title>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <meta property="og:title" content="Moe Myint Kyal Sin — PMP Portfolio" />
-  <meta property="og:description" content="PMP Experience Portfolio · Creative Project Management · Communications & Public Relations" />
-  <meta property="og:image" content="social-preview.png" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://moesin07-lab.github.io/Portfolio/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Moe Myint Kyal Sin — PMP Portfolio" />
-  <meta name="twitter:description" content="Creative Project Management · Communications & IO Psychology" />
-  <meta name="twitter:image" content="https://moesin07-lab.github.io/Portfolio/social-preview.png" />
-  <meta name="keywords" content="Project Management, PMP Portfolio, Organizational Psychology, Public Relations, Creative Strategy, Leadership" />
-  <meta name="author" content="Moe Myint Kyal Sin" />
-  <meta name="theme-color" content="#FDB813" />
-
+  <title>Moe Myint Kyal Sin — COMM 464 Portfolio</title>
   <style>
-    :root {
-      --gold: #fdb813;
-      --amber: #f6c90e;
-      --ink: #333;
-      --muted: #846400;
-      --card: #fff;
-      --bg: #fff8e1;
-      --border: #ffe3a6;
-    }
     * {
       box-sizing: border-box;
-    }
-    body {
-      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--ink);
       margin: 0;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(90deg, var(--amber), var(--gold));
-      color: #fff;
-      text-align: center;
-      padding: 2.5rem 1rem 1.8rem;
-    }
-    h1 {
-      margin: 0 0 .25rem;
-      font-size: 2rem;
-    }
-    header p {
-      margin: .25rem 0 0;
-      font-weight: 600;
-      color: #222;
-    }
-    main {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 0 1rem 2.5rem;
-    }
-    section {
-      margin-bottom: 2rem;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      box-shadow: 0 6px 18px rgba(0,0,0,.06);
-      padding: 1.25rem;
-    }
-    h2 {
-      color: #a06a00;
-      margin: 0 0 .75rem;
-    }
-    ul {
-      margin: .5rem 0 .25rem 1.2rem;
-    }
-    .timeline {
-      position: relative;
-      padding-left: 26px;
-    }
-    .timeline:before {
-      content: "";
-      position: absolute;
-      left: 10px;
-      top: 0;
-      bottom: 0;
-      width: 2px;
-      background: linear-gradient(var(--gold), var(--amber));
-    }
-    .t-item {
-      position: relative;
-      margin: 0 0 14px;
-      padding: 12px;
-      border: 1px solid var(--border);
-      background: #fff;
-      border-radius: 12px;
-    }
-    .t-item .dot {
-      position: absolute;
-      left: -22px;
-      top: 16px;
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      background: var(--gold);
-      border: 2px solid #fff;
-      box-shadow: 0 0 0 2px var(--gold);
-    }
-    .t-head {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      align-items: center;
-      margin-bottom: 4px;
-    }
-    .t-title {
-      font-weight: 800;
-    }
-    .t-role {
-      color: var(--muted);
-      font-size: .95rem;
-    }
-    .t-meta {
-      color: #5f5f5f;
-      font-size: .92rem;
-    }
-    .pills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-top: 6px;
-    }
-    .pill {
-      font-size: .75rem;
-      padding: 4px 8px;
-      border-radius: 999px;
-      background: #fff7d1;
-      border: 1px solid var(--border);
-      transition: background 0.3s ease;
-    }
-    .pill:hover {
-      background: #ffe066;
-    }
-    footer {
-      text-align: center;
-      background: var(--gold);
-      color: #fff;
-      padding: 1.5rem 1rem;
-    }
-    footer a {
-      color: #fff;
-      text-decoration: underline;
+      padding: 0;
     }
 
-    /* Profile Header Styling */
-    .profile-container {
-      text-align: center;
-      margin-top: 20px;
+    html {
+      scroll-behavior: smooth;
     }
-    .profile-photo {
-      width: 130px;
-      height: 130px;
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7efe8;
+      color: #2f241d;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .page {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+      padding: 40px 0 28px;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 22px;
+      color: #6f5545;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: flex-end;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      gap: 36px;
+      align-items: center;
+      background: #fff9f3;
+      border: 1px solid #ead9ca;
+      border-radius: 28px;
+      padding: 34px;
+      box-shadow: 0 18px 45px rgba(70, 43, 25, 0.10);
+    }
+
+    .profile-img {
+      width: 230px;
+      height: 230px;
       object-fit: cover;
+      object-position: center top;
       border-radius: 50%;
-      border: 4px solid #fff4d0;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      border: 8px solid #f1dfd0;
+      box-shadow: 0 12px 30px rgba(75, 45, 25, 0.18);
+      background: #ead9ca;
+    }
+
+    h1 {
+      font-size: clamp(2.25rem, 5vw, 4.6rem);
+      line-height: 1.03;
+      letter-spacing: -0.05em;
+      color: #2b201a;
+      margin-bottom: 14px;
+    }
+
+    .tagline {
+      font-size: 1.08rem;
+      color: #735b4a;
+      margin-bottom: 18px;
+      max-width: 740px;
+    }
+
+    .hero-note {
+      color: #5c483b;
+      max-width: 780px;
+      margin-bottom: 24px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: #38271f;
+      color: #fffaf5;
+      font-size: 0.92rem;
+      font-weight: 700;
+      transition: 0.2s ease;
+      border: 1px solid #38271f;
+    }
+
+    .btn.secondary {
+      background: #e9d3c0;
+      color: #39271f;
+      border-color: #e2c7b1;
+    }
+
+    .btn.light {
+      background: #fff9f3;
+      color: #39271f;
+      border-color: #dcc1aa;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(57, 39, 31, 0.18);
+    }
+
+    section {
+      margin-top: 34px;
+      background: #fff9f3;
+      border: 1px solid #ead9ca;
+      border-radius: 24px;
+      padding: 30px;
+      box-shadow: 0 14px 35px rgba(70, 43, 25, 0.07);
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      color: #33231d;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      color: #2f211b;
+      margin-bottom: 5px;
+    }
+
+    .section-intro {
+      color: #5c483b;
+      max-width: 880px;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      max-width: 900px;
+      color: #5c483b;
+      font-size: 1.03rem;
+    }
+
+    .education ul {
+      list-style: none;
+      display: grid;
+      gap: 12px;
+    }
+
+    .education li {
+      background: #fbefe5;
+      border: 1px solid #efdccb;
+      border-radius: 16px;
+      padding: 14px 16px;
+      color: #503d31;
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .work-card {
+      background: #fbefe5;
+      border: 1px solid #efdccb;
+      border-radius: 22px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+      box-shadow: 0 8px 22px rgba(70, 43, 25, 0.06);
+    }
+
+    .work-card .label {
+      color: #8a6d59;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+
+    .work-card p {
+      color: #574337;
       margin-bottom: 12px;
     }
-    .link-buttons {
-      display: flex;
-      justify-content: center;
+
+    .detail-list {
+      display: grid;
       gap: 10px;
-      margin-top: 12px;
+      margin: 8px 0 18px;
     }
-    .link-btn {
-      background-color: #fff4d0;
-      color: #333;
-      padding: 6px 14px;
-      border-radius: 10px;
-      font-weight: 600;
-      text-decoration: none;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      transition: all 0.2s ease-in-out;
+
+    .detail {
+      background: #fff9f3;
+      border: 1px solid #ead9ca;
+      border-radius: 16px;
+      padding: 12px;
+      color: #594538;
+      font-size: 0.95rem;
     }
-    .link-btn:hover {
-      background-color: #fdd96b;
-      transform: translateY(-1px);
-      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+
+    .detail strong {
+      display: block;
+      color: #34241d;
+      margin-bottom: 2px;
+    }
+
+    .work-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: auto;
+    }
+
+    .timeline {
+      position: relative;
+      display: grid;
+      gap: 18px;
+      margin-top: 8px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 18px;
+      top: 8px;
+      bottom: 8px;
+      width: 2px;
+      background: #e2c5ae;
+    }
+
+    .item {
+      position: relative;
+      display: grid;
+      grid-template-columns: 48px 1fr;
+      gap: 16px;
+    }
+
+    .dot {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #3c2a22;
+      border: 4px solid #f7efe8;
+      margin-left: 11px;
+      margin-top: 18px;
+      z-index: 1;
+      box-shadow: 0 0 0 2px #d9b99f;
+    }
+
+    .card {
+      background: #fbefe5;
+      border: 1px solid #efdccb;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 8px 22px rgba(70, 43, 25, 0.06);
+    }
+
+    .org {
+      color: #7a6150;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .date {
+      color: #8a705d;
+      font-size: 0.93rem;
+      margin-bottom: 10px;
+    }
+
+    .desc {
+      color: #574337;
+      margin-bottom: 12px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      background: #fff9f3;
+      border: 1px solid #e2c9b7;
+      border-radius: 999px;
+      padding: 5px 10px;
+      color: #6a5142;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .note-box {
+      background: #fbefe5;
+      border: 1px dashed #d8b89e;
+      border-radius: 18px;
+      padding: 18px;
+      color: #5a4538;
+      margin-top: 18px;
+    }
+
+    footer {
+      text-align: center;
+      color: #826859;
+      font-size: 0.9rem;
+      padding: 28px 0 6px;
+    }
+
+    footer a {
+      font-weight: 700;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    @media (max-width: 860px) {
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .page {
+        padding-top: 24px;
+      }
+
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav-links {
+        justify-content: flex-start;
+      }
+
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-items: center;
+        padding: 26px 20px;
+      }
+
+      .links {
+        justify-content: center;
+      }
+
+      section {
+        padding: 24px 20px;
+      }
+
+      .timeline::before {
+        left: 13px;
+      }
+
+      .item {
+        grid-template-columns: 36px 1fr;
+      }
+
+      .dot {
+        margin-left: 6px;
+      }
     }
   </style>
 </head>
-
 <body>
-  <header>
-    <div class="profile-container">
-      <img src="moesin-profile.jpg" alt="Moe Myint Kyal Sin" class="profile-photo">
-      <h1>Moe Myint Kyal Sin</h1>
-      <p>PMP Experience Portfolio · Creative Project Management · Communications & Public Relations</p>
-      <div class="link-buttons">
-        <a href="https://www.linkedin.com/in/moesin07" target="_blank" class="link-btn">LinkedIn</a>
-        <a href="https://linktr.ee/moesindiary" target="_blank" class="link-btn">Linktree</a>
- <a href="https://moesin07-lab.github.io/resume/spring2026resume.pdf" target="_blank" class="link-btn">Download Résumé</a>
+  <main class="page">
+    <nav class="nav">
+      <a href="#top">Moe Myint Kyal Sin</a>
+      <div class="nav-links">
+        <a href="#portfolio-work">Portfolio Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
       </div>
-    </div>
-  </header>
+    </nav>
 
-  <main>
-    <section>
-      <h2>About Moe</h2>
-      <p>Driven by creativity, purpose, and connection, I bridge psychology and communication through storytelling and structured project leadership. I build campaigns and programs that spark growth, empower communities, and deliver measurable results.</p>
+    <header class="hero" id="top">
+      <img class="profile-img" src="https://moesin07-lab.github.io/portfolio-PMP/moesin-profile.jpg" alt="Moe Myint Kyal Sin" />
+      <div>
+        <h1>Moe Myint Kyal Sin</h1>
+        <p class="tagline">COMM 464 Portfolio · Public Relations · Community Outreach · Creative Project Coordination</p>
+        <p class="hero-note">This portfolio includes revised professional materials prepared for class, internships, and public relations work. Each item includes the purpose of the piece, my specific role, and the results or impact connected to the work.</p>
+        <div class="links">
+          <a class="btn" href="https://www.linkedin.com/in/moesin07/" target="_blank">LinkedIn</a>
+          <a class="btn secondary" href="#portfolio-work">View Portfolio Pieces</a>
+          <a class="btn light" href="mailto:Msin2@csu.fullerton.edu">Email Me</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>I am a Communications student with a concentration in Public Relations at California State University, Fullerton. My work connects campaign strategy, community outreach, event coordination, and creative storytelling. Through Titan Public Relations, Newport Beach Film Festival, and campus leadership experiences, I have built skills in client communication, partnership outreach, social media strategy, and project coordination.</p>
     </section>
 
-    <section>
+    <section id="portfolio-work">
+      <h2>Portfolio Work</h2>
+      <p class="section-intro">The following four pieces meet the COMM 464 portfolio requirements: my resume, my RFP campaign plan, and two additional professional pieces from internship and campaign work.</p>
+
+      <div class="portfolio-grid">
+        <article class="work-card">
+          <p class="label">Piece 1 · Required</p>
+          <h3>Professional Resume</h3>
+          <p>This resume highlights my experience in public relations, project coordination, and community outreach across academic, internship, and professional settings.</p>
+          <div class="detail-list">
+            <div class="detail"><strong>Why it was prepared</strong>It was created to present my qualifications to employers and demonstrate my ability to manage campaigns, lead teams, and deliver measurable results.</div>
+            <div class="detail"><strong>My role</strong>I revised and updated the resume to reflect my current experience, including Newport Beach Film Festival, Titan Public Relations, Thrive Mentor, and leadership activities.</div>
+            <div class="detail"><strong>Results</strong>The resume shows measurable outcomes, including a 45% client engagement increase at Titan PR and a 30% audience engagement increase during the Brazilian Spotlight program.</div>
+          </div>
+          <div class="work-actions">
+            <a class="btn" href="generalversion26(3).pdf" target="_blank">View Resume</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <p class="label">Piece 2 · Required</p>
+          <h3>RFP Campaign Plan: San Mateo County Libraries</h3>
+          <p>This campaign plan was developed for COMM 464 as a strategic public relations proposal for San Mateo County Libraries.</p>
+          <div class="detail-list">
+            <div class="detail"><strong>Why it was prepared</strong>The plan was created to increase awareness, engagement, and public understanding of San Mateo County Libraries as a modern, inclusive community hub.</div>
+            <div class="detail"><strong>My role</strong>I contributed to campaign planning, communication goals, strategy development, research organization, and client-facing sections of the proposal.</div>
+            <div class="detail"><strong>Results</strong>The final plan includes a full SWOT and PEST analysis, audience research, a 12-month timeline, a $53,250 budget, and measurable objectives such as increasing awareness by 10%.</div>
+          </div>
+          <div class="work-actions">
+            <a class="btn" href="Comm 464 Final Draft (1) (1)(1).pdf" target="_blank">View RFP Plan</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <p class="label">Piece 3 · Internship Work</p>
+          <h3>Newport Beach Film Festival Internship</h3>
+          <p>This piece represents my community outreach and event operations experience with Newport Beach Film Festival.</p>
+          <div class="detail-list">
+            <div class="detail"><strong>Why it was prepared</strong>This experience was included to show employer-ready skills in outreach, partnership coordination, event logistics, and stakeholder communication.</div>
+            <div class="detail"><strong>My role</strong>As a Community Outreach Intern, I coordinate outreach, sponsor partnerships, vendor communication, internal team communication, and engagement strategies for festival operations.</div>
+            <div class="detail"><strong>Results</strong>I support a large-scale international film festival with more than 10,000 attendees. In my Brazilian Spotlight role, I coordinated 20+ sponsor and community partnerships for a sold-out event with 300+ attendees and helped increase audience engagement by 30%.</div>
+          </div>
+          <div class="work-actions">
+            <a class="btn secondary" href="#experience">View Timeline</a>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <p class="label">Piece 4 · Campaign Materials</p>
+          <h3>Social Media Campaign & Creative Materials</h3>
+          <p>This piece includes creative campaign materials from the San Mateo County Libraries PR plan, including social media post concepts and influencer campaign ideas.</p>
+          <div class="detail-list">
+            <div class="detail"><strong>Why it was prepared</strong>The materials were created to support the campaign strategy and engage students, multilingual families, and digitally active audiences.</div>
+            <div class="detail"><strong>My role</strong>I helped develop campaign ideas, messaging direction, and execution strategies that connect research insights to creative PR tactics.</div>
+            <div class="detail"><strong>Results</strong>The creative materials were designed around research findings, including the insight that Instagram and TikTok are key platforms for discovering study spaces and local events.</div>
+          </div>
+          <div class="work-actions">
+            <a class="btn" href="Comm 464 Final Draft (1) (1)(1).pdf#page=28" target="_blank">View Creative Materials</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="note-box">
+        <strong>Submission note:</strong> Before submitting this URL on Canvas, make sure the PDF files are uploaded to the same website folder as this HTML file, and make sure the published website is set to public viewing.
+      </div>
+    </section>
+
+    <section class="education" id="education">
       <h2>Education & Certification</h2>
       <ul>
-        <li><strong>California State University, Fullerton</strong> — B.A. Communications (Public Relations), <em>Expected May 2026</em></li>
-        <li><strong>Pasadena City College</strong> — A.A. Communication, Psychology, Sociology (2020–2024)</li>
-        <li><strong>Certified ScrumMaster®</strong> — Scrum Alliance (Mar 2024–Mar 2026)</li>
+        <li><strong>California State University, Fullerton</strong> — B.A. Communication, Public Relations, Expected May 2026</li>
+        <li><strong>Pasadena City College</strong> — A.A. Communication, Psychology, Sociology, Aug 2021 – May 2024</li>
+        <li><strong>Google Project Management Certificate</strong> — Expected May 2026</li>
+        <li><strong>Certified ScrumMaster®</strong> — Scrum Alliance, Mar 2024</li>
       </ul>
     </section>
 
-    <section>
+    <section id="experience">
       <h2>Experience Timeline</h2>
+      <p class="section-intro">This timeline highlights selected public relations, outreach, leadership, and project coordination experiences connected to my portfolio.</p>
       <div class="timeline">
-        
-        <!-- Each item includes project-phase bubbles -->
-        <div class="t-item"><span class="dot"></span><div class="t-head"><div class="t-title">Account Executive (Guan Fitness)</div><div class="t-role">· Titan Public Relations</div></div><div class="t-meta">Sep 2025 – Dec 2025 · ~150 hrs</div><p>Led team, managed client, delivered brand identity and growth strategy for Guan Fitness.</p><div class="pills"><span class="pill">Initiation</span><span class="pill">Planning</span><span class="pill">Execution</span></div></div>
+        <article class="item">
+          <div class="dot"></div>
+          <div class="card">
+            <h3>Community Outreach Intern</h3>
+            <p class="org">Newport Beach Film Festival · Costa Mesa, CA</p>
+            <p class="date">Feb 2026 – Present</p>
+            <p class="desc">Coordinate outreach, sponsor partnerships, and event logistics for a 10,000+ attendee international film festival while supporting communication across sponsors, vendors, and internal teams.</p>
+            <div class="tags"><span class="tag">Community Outreach</span><span class="tag">Event Logistics</span><span class="tag">Partnerships</span></div>
+          </div>
+        </article>
 
-        <div class="t-item"><span class="dot"></span><div class="t-head"><div class="t-title">Brazilian Spotlight 2025</div><div class="t-role">· Newport Beach Film Festival</div></div><div class="t-meta">Aug 2025 – Dec 2025</div><p>Coordinated sponsor outreach, creative assets, and event logistics for the NBFF Brazilian Spotlight.</p><div class="pills"><span class="pill">Coordination</span><span class="pill">Event Management</span><span class="pill">Outreach</span></div></div>
+        <article class="item">
+          <div class="dot"></div>
+          <div class="card">
+            <h3>Community Outreach Coordinator, Brazilian Spotlight</h3>
+            <p class="org">Newport Beach Film Festival · Costa Mesa, CA</p>
+            <p class="date">Aug 2025 – Dec 2025</p>
+            <p class="desc">Led coordination of 20+ sponsor and community partnerships, supported volunteer coordination and logistics, and contributed to a sold-out event with 300+ attendees and a 30% audience engagement increase.</p>
+            <div class="tags"><span class="tag">Sponsor Outreach</span><span class="tag">Event Management</span><span class="tag">Audience Engagement</span></div>
+          </div>
+        </article>
 
-        <div class="t-item"><span class="dot"></span><div class="t-head"><div class="t-title">Thrive Mentor</div><div class="t-role">· CSUF Public Health</div></div><div class="t-meta">Aug 2025 – May 2026</div><p>Guided first-gen students through personal growth and leadership development sessions.</p><div class="pills"><span class="pill">Mentorship</span><span class="pill">Leadership</span><span class="pill">Coaching</span></div></div>
+        <article class="item">
+          <div class="dot"></div>
+          <div class="card">
+            <h3>Account Executive</h3>
+            <p class="org">Titan Public Relations · Fullerton, CA</p>
+            <p class="date">Sep 2025 – Dec 2025</p>
+            <p class="desc">Led a 4-member team for Guan Fitness, managed timelines and deliverables across three campaigns, and helped increase client engagement by 45%.</p>
+            <div class="tags"><span class="tag">Client Communication</span><span class="tag">Campaign Strategy</span><span class="tag">Project Management</span></div>
+          </div>
+        </article>
 
-        <div class="t-item"><span class="dot"></span><div class="t-head"><div class="t-title">The Inner Universe Podcast</div><div class="t-role">· Self-Produced</div></div><div class="t-meta">Apr 2025 – Present</div><p>Produced and hosted podcast exploring creativity, healing, and psychology through storytelling.</p><div class="pills"><span class="pill">Creative Production</span><span class="pill">Storytelling</span><span class="pill">Branding</span></div></div>
+        <article class="item">
+          <div class="dot"></div>
+          <div class="card">
+            <h3>Thrive Mentor</h3>
+            <p class="org">CSUF Public Health · Fullerton, CA</p>
+            <p class="date">Aug 2025 – Present</p>
+            <p class="desc">Mentor 10+ first-generation students through goal-setting sessions and facilitate leadership and time management workshops with strong student participation.</p>
+            <div class="tags"><span class="tag">Mentorship</span><span class="tag">Leadership</span><span class="tag">Student Success</span></div>
+          </div>
+        </article>
 
-        <div class="t-item"><span class="dot"></span><div class="t-head"><div class="t-title">Account Coordinator (Litterbox)</div><div class="t-role">· Titan Public Relations</div></div><div class="t-meta">Sep 2024 – Dec 2024</div><p>Developed social media and PR campaign strategy for an EDM client to grow awareness and engagement.</p><div class="pills"><span class="pill">Planning</span><span class="pill">Strategy</span><span class="pill">Execution</span></div></div>
+        <article class="item">
+          <div class="dot"></div>
+          <div class="card">
+            <h3>The Inner Universe</h3>
+            <p class="org">Podcast Host & Producer</p>
+            <p class="date">Apr 2025 – Present</p>
+            <p class="desc">Produce and manage podcast content focused on personal growth, storytelling, psychology, and creativity across major platforms.</p>
+            <div class="tags"><span class="tag">Creative Production</span><span class="tag">Storytelling</span><span class="tag">Content Strategy</span></div>
+          </div>
+        </article>
 
-        <div class="t-item"><span class="dot"></span><div class="t-head"><div class="t-title">Fearless Futures & The Artist’s Mind Podcasts</div><div class="t-role">· Fearless Digital</div></div><div class="t-meta">Jan 2023 – Oct 2023</div><p>Produced two podcast series focused on creativity, mindset, and emotional growth.</p><div class="pills"><span class="pill">Content Creation</span><span class="pill">Collaboration</span><span class="pill">Production</span></div></div>
-
-        <div class="t-item"><span class="dot"></span><div class="t-head"><div class="t-title">HD eCommerce Project</div><div class="t-role">· Helmets & Decals</div></div><div class="t-meta">Mar 2021 – Apr 2022</div><p>Built eCommerce business for a client, handling site design, branding, and launch strategy.</p><div class="pills"><span class="pill">Design</span><span class="pill">Launch</span><span class="pill">Marketing</span></div></div>
-
-        <div class="t-item"><span class="dot"></span><div class="t-head"><div class="t-title">Social Media Marketing Agent</div><div class="t-role">· Fearless Digital (Freelance)</div></div><div class="t-meta">Jul 2020 – Apr 2021</div><p>Created and executed digital marketing campaigns for clients in the creative and tech industries.</p><div class="pills"><span class="pill">Social Media</span><span class="pill">Brand Strategy</span><span class="pill">Advertising</span></div></div>
-
-        <div class="t-item"><span class="dot"></span><div class="t-head"><div class="t-title">Consumer Technology Association (CTA)® MONOXERO Project</div><div class="t-role">· CTA</div></div><div class="t-meta">Mar 2017 – May 2017</div><p>Developed concept for MONOXERO, a free-internet technology for emerging regions; pitched at CTA.</p><div class="pills"><span class="pill">Innovation</span><span class="pill">Presentation</span><span class="pill">Technology</span></div></div>
-
+        <article class="item">
+          <div class="dot"></div>
+          <div class="card">
+            <h3>Account Coordinator</h3>
+            <p class="org">Titan Public Relations · Fullerton, CA</p>
+            <p class="date">Sep 2024 – Dec 2024</p>
+            <p class="desc">Supported campaign planning, media outreach, content development, timelines, and client deliverables for multiple public relations accounts.</p>
+            <div class="tags"><span class="tag">Media Outreach</span><span class="tag">Planning</span><span class="tag">Content Development</span></div>
+          </div>
+        </article>
       </div>
     </section>
-  </main>
 
-  <footer>
-    <p>© 2025 Moe Myint Kyal Sin · <a href="https://www.linkedin.com/in/moesin07" target="_blank">LinkedIn</a></p>
-  </footer>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="section-intro">Email: <a href="mailto:Msin2@csu.fullerton.edu">Msin2@csu.fullerton.edu</a> · LinkedIn: <a href="https://www.linkedin.com/in/moesin07/" target="_blank">linkedin.com/in/moesin07</a></p>
+    </section>
+
+    <footer>
+      © 2026 Moe Myint Kyal Sin · COMM 464 Portfolio
+    </footer>
+  </main>
 </body>
 </html>
+
